@@ -109,15 +109,14 @@ public class RPS2 extends Application
         stage.show();
     }
 
-    /**
-     * This will be executed when the player clicks the "Rock" button
-     * 
-     */
     private void rockClick(ActionEvent event)
     {
-        //rpsMatch.setHumanPlay(RPSMatch.ROCK);
+        //rpsMatch.setHumanPlay("rock");
         lblStatus1.setText ("You have chosen Rock      ");
         
+        //lblStatus2.setText ("I choose " + rpsMatch.getComputerPlay());
+        
+        //lblStatus3.setText (rpsMatch.getResult());
         updateScores();
     }
     
@@ -127,10 +126,14 @@ public class RPS2 extends Application
      */
     private void paperClick(ActionEvent event)
     {
-        //rpsMatch.setHumanPlay(RPSMatch.PAPER);
+        //rpsMatch.setHumanPlay("paper");
         lblStatus1.setText ("You have chosen Paper     ");
                
+        //lblStatus2.setText ("I choose " + rpsMatch.getComputerPlay());
+        
+        //lblStatus3.setText (rpsMatch.getResult());
         updateScores();
+
     }
 
     /**
@@ -139,11 +142,16 @@ public class RPS2 extends Application
      */
     private void scissorsClick(ActionEvent event)
     {
-        //rpsMatch.setHumanPlay(RPSMatch.SCISSORS);
+        //rpsMatch.setHumanPlay("scissors");
         lblStatus1.setText ("You have chosen Scissors  ");
-
+               
+        //lblStatus2.setText ("I choose " + rpsMatch.getComputerPlay());
+        
+        //lblStatus3.setText (rpsMatch.getResult());
         updateScores();
+
     }
+
 
     private void updateScores()
     {
