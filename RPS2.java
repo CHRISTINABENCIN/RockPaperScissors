@@ -1,4 +1,12 @@
 
+(constructor) RPSMatch()
+    void setHumanPlay (String)
+    String getComputerPlay()
+    String getResult9)
+    
+    int getHumanWins()
+    int getComputerWins()
+    int getTies()
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -16,13 +24,25 @@ import javafx.stage.Stage;
 /**
  * Starting code for a Rock-Paper-Scissors game!
  *
- * @author Michael Buescher for APCS-A @ HB
- * @version 1.0
+ * @author Christina Bencin
+ * @version 2021.10.06
  */
-public class RPS2 extends Application
+public class RPSMatch extends Application
 {
+    public void setHumanPlay(int humanPlay)
+    {
+    }
+    public int getComputerPlay()
+    {
+    }
+    public String getResult()
+    {
+    }
+    
+  }
+  
     // The Rock-Paper-Scissors Match
-    // private RPSMatch rpsMatch;
+    private RPSMatch rpsMatch;
     
     // Labels for displaying the win counts
     private Label lblPlayerWins =       new Label("Human Wins");
